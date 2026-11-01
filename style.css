@@ -16,7 +16,10 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 86px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: white;
     border: 1px solid #ddd;
 }
@@ -69,7 +72,7 @@ body {
     border: none;
     color: black;
     font-size: 19px;
-    font-weight: bold;
+    font-weight: 200;
     cursor: pointer;
     background-color: white;
     
@@ -78,6 +81,7 @@ body {
 
 
 .imgContainer {
+margin-top: 86px;
 height: 330px;
 width: 100%;
 padding: 20px 50px;
@@ -141,19 +145,90 @@ padding: 20px 50px;
 }
 
 
-@media (max-width: 600px) {
-    .navbar {
-        height: auto;
-        flex-wrap: wrap;
-        gap: 15px;
-        padding: 15px;
-    }
-
-    .navbar input {
-        width: 100%;
-    }
-
-    .hero {
-        padding: 0 15px;
-    }
+.footer {
+    background-color: #ffffff;
+    color: darkgreen;
+    padding: 40px 20px 20px 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.footer-table {
+    margin-bottom: 20px;
+    min-width: 150px;
+}
+
+.footer-table h3 {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.footer-table ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-table li {
+    margin-bottom: 10px;
+}
+
+.footer-table a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bottom {
+    flex-basis: 100%;
+    border-top: 1px solid darkgreen;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 10px;
+
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: darkgreen;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+.icons {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #334155;
+    border-radius: 50%;
+    background-color: #1d2532;
+    color: #e3eaf3;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+}
+
