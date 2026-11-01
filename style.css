@@ -27,12 +27,9 @@ body {
     padding: 0 30px;
     border-right: 1px solid #ddd;
     height: 100%;
+     color: #f7c600;
+    font-size: 19px;
 
-}
-
-.navbar h1 {
-    color: #f7c600;
-    font-size: 28px;
 }
 
 .navbar span {
@@ -40,15 +37,15 @@ body {
 }
 
 .navbar p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .navbar input {
-    width: 510px;
-    padding: 15px;
+    width: 590px;
+    padding: 18px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 16px;
     background-color: #faf7f7;
     /* margin-right: 300px; */
@@ -96,10 +93,7 @@ padding: 20px 50px;
     width: 100%;
     height: 100%;
 }
-.btn1:hover {
-    background-color: #f7c600;
-    color: white;
-}
+
 .contI {
     display: flex;
     align-items: center;
